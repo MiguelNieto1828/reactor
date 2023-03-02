@@ -5,5 +5,11 @@ def suma(numero1, numero2):
     total = num1 + num2
     return total
 
+def resta(numero1, numero2):
+    total = num1 - num2
+    return total
+
 resultado = suma(num1 , num2)
+resultado = resta(num1 , num2)
+
 print("El resultado es: ", resultado)
